@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="root"></div>
+    <script>
+   var divref = React.createElement("div", null, [
+    React.createElement("h1", null, "Learn web development"),
+    React.createElement("p", null, "Welcome to the MDN learning area. This set of articles aime to guide complete begginers to web development with all that they need to start coding websites."),
+    React.createElement("p",{class:"para"}, 'The aim of this area of MDN  is not to take you from "begginer" to "expert" but to take you from "begginer" to "comfortable"." From there, you should be able to start making your way, learning from'), 
+    React.createElement("a", {href:"#", class:"para"}, '  the rest of MDN  '),
+    React.createElement("p", {class:"para"}, 'other intermediate to advance resources that assumes a lot of previous kowledge.'),
+    React.createElement("p", null, 'If you are a complete beginer, web development can be challenging - we will hold your hand and provide enough detail for you to feel comfortable and learn the topics properly. You should feel at home whether you are student learning web development(on you own or as a part of class), a teacher looking for class materials, hobbyist, or someone who just wants to understand more about how web technologies work.')   
+]);   
+   ReactDOM.render(divref, document.getElementById("root"));
+    </script>
+</body>
+</html>

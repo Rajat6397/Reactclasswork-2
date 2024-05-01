@@ -1,0 +1,13 @@
+body{
+    align-items: center;
+    justify-content: center;
+}
+
+#root{
+    height:400px;
+    width:800px;
+    border:2px solid black;
+}
+.para{
+    display:inline;
+}
